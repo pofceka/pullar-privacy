@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Privacy policy and contact details for the Pullar expense-tracking app.">
+<meta name="theme-color" content="#fcfaf7">
+<title>Pullar — Privacy Policy</title>
+<link rel="icon" href="icon.png">
+<link rel="preload" href="fonts/GolosText-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+@font-face{font-family:Golos;src:url('fonts/GolosText-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Golos;src:url('fonts/GolosText-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+:root{color-scheme:light;--paper:#fcfaf7;--ink:#29231e;--muted:#6e6359;--accent:#754c2b;--rule:#ded6ce}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 Golos,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+::selection{background:#ead8c7;color:var(--ink)}
+html{scrollbar-color:var(--muted) var(--paper)}
+main{max-width:800px;margin:auto;padding:56px 28px 72px}
+header{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:80px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{width:54px;height:54px;border-radius:13px}
+.brand-name{font-size:25px;font-weight:700;line-height:1.2;letter-spacing:-.025em}
+.brand-description{color:var(--muted);font-size:15px;line-height:1.5;margin-top:4px}
+a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}
+a:hover{color:var(--ink)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:2px}
+.contact{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 20px;border:1px solid var(--rule);border-radius:999px;color:var(--ink);font-size:15px;text-decoration:none;white-space:nowrap}
+.contact:hover{background:#efe7df;border-color:var(--muted)}
+h1{font-size:clamp(38px,6vw,58px);font-weight:700;line-height:1.08;letter-spacing:-.035em;margin:0 0 16px;text-wrap:balance}
+.effective-date{color:var(--muted);font-size:18px;margin-bottom:40px}
+h2{font-size:27px;line-height:1.3;letter-spacing:-.025em;margin:52px 0 18px;text-wrap:balance}
+p{margin:0 0 22px}
+footer{border-top:1px solid var(--rule);padding-top:26px;margin-top:56px;color:var(--muted);font-size:15px}
+footer p{margin:0 0 8px}
+@media(max-width:540px){main{padding:28px 22px 48px}header{margin-bottom:58px;gap:14px}.brand{gap:10px}.brand img{width:44px;height:44px;border-radius:11px}.brand-name{font-size:23px}.brand-description{font-size:13px}.contact{padding:8px 15px;font-size:14px}body{font-size:17px;line-height:1.75}h2{font-size:24px;margin-top:42px}.effective-date{font-size:16px;margin-bottom:32px}}
+@media print{body{background:white;color:black}main{max-width:none;padding:0}header{margin-bottom:32px}.contact{display:none}h2{break-after:avoid}a{color:inherit}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="brand"><img src="icon.png" alt="" width="54" height="54"><div><div class="brand-name">Pullar</div><div class="brand-description">Expense tracker</div></div></div>
+<a class="contact" href="mailto:aubuldasev@gmail.com">Contact</a>
+</header>
+<article>
+<h1>Pullar Privacy Policy</h1>
+<p class="effective-date">Effective date: October 10, 2026</p>
+<p>Pullar is developed by Ayubkhon Yuldashev. For privacy questions or requests, contact <a href="mailto:aubuldasev@gmail.com">aubuldasev@gmail.com</a>.</p>
+<h2>Sign-in and privacy agreement</h2>
+<p>Apple sign-in is mandatory immediately before the Premium offer and before entering the app, including the free plan. Introductory setup and a first-transaction draft can be completed before sign-in; the draft is assigned to your account when setup finishes. There is no guest mode. Signing in creates a Pullar account if needed, or opens your existing account. The sign-in screen states that by signing in you agree to this Privacy Policy and consent to the data processing described here. Each account has a separate local ledger, and authentication protects private developer chat and cloud voice. Signing out preserves the account ledger for your next sign-in. Signed-in accounts back up and restore their records through Supabase.</p>
+<h2>Transactions and preferences</h2>
+<p>Your income and expense records, amounts, dates, notes, recurrence settings, categories, currency, display precision, setup completion, and any saved personal plan are stored locally and backed up to Supabase under your signed-in account. Pullar retrieves this backup when you sign in again, including after reinstalling, and reconciles changes between devices. Backup requires an internet connection. Changes that have not successfully reached the server cannot be recovered after removing the app. Access is restricted to your account; service administrators can access the database to operate the service. Local files may also be included in device backups managed by Apple.</p>
+<p>If you created a personal plan in an earlier version of Pullar, its goal, routine length, and check-in frequency remain stored on this device. If you enabled check-in reminders for that plan, Pullar schedules local notifications at your chosen frequency during the routine. You can turn these reminders off in Settings → Your plan or iOS Settings. The saved plan is included in your account backup; notification permissions remain specific to each device.</p>
+<h2>Sign in with Apple</h2>
+<p>Pullar uses Sign in with Apple and Supabase to create and authenticate your account. The service processes your Apple-provided account identifier, the email address you choose to share (including an Apple private relay address), and authentication/session information. Pullar does not receive your Apple password. Supabase processes this information to operate authentication and secure access to your support conversations.</p>
+<h2>Developer chat and support</h2>
+<p>When you send a message to the developer, Supabase stores the message text, your account identifier, timestamps, and read status. The developer can read and reply to these conversations. Your transaction records are not automatically included. Do not send passwords, payment-card numbers, or information you do not want the developer to receive. If you email support, your email address and message are processed by the developer&#x27;s email service to respond to you.</p>
+<h2>Service providers and diagnostics</h2>
+<p>Apple provides sign-in, app distribution, and device backup services; Supabase provides authentication and the support-chat database. These providers may process network information, such as IP addresses, and operational logs when you use their services. TestFlight can provide Apple and the developer with testing feedback and crash or usage diagnostics under Apple&#x27;s TestFlight privacy terms. Pullar does not include advertising SDKs, cross-app tracking, or a separate product-analytics SDK, and does not sell personal information.</p>
+<h2>Retention and deletion</h2>
+<p>Local account transactions remain on your device until you delete them, delete that account through Pullar on this device, or remove the app. The server backup remains until account deletion; removing the app alone does not delete it. Unassigned local records from earlier versions remain separate and are not automatically erased by deleting a signed-in account. Account information and support conversations are retained to provide the service until you request account deletion. You can initiate deletion in Settings → Delete Account, or contact <a href="mailto:aubuldasev@gmail.com">aubuldasev@gmail.com</a> if you cannot access the app. Account deletion removes active account, cloud transaction backup, and chat records and revokes Pullar&#x27;s Sign in with Apple authorization. Service-provider backups and operational logs may remain for their retention periods. Separately retained device backups and support emails are not automatically erased by deleting the app account; contact the developer about support-email deletion and manage device backups in Apple&#x27;s settings.</p>
+<p>To recover safely from an interrupted account deletion, Pullar saves a random recovery token on your device before sending the request. Supabase stores only its hash and an account reference. Deleting the account clears that reference, allowing this device to confirm deletion without a valid sign-in session. The receipt remains until the device confirms local cleanup; it contains no Apple authorization code or session token. Unconfirmed deletion attempts keep local records.</p>
+<h2>Your choices</h2>
+<p>You can edit or delete individual transactions, choose an Apple private relay email, avoid sending support messages, and request access, correction, or deletion of account and support information by contacting the developer. Records that were never successfully backed up cannot be restored by the developer. Depending on where you live, additional privacy rights may apply.</p>
+<h2>Children and policy changes</h2>
+<p>Pullar is intended for a general audience and is not directed to children under 13. If you believe a child has provided personal information, contact the developer. This policy may be updated as the app changes; the current policy and effective date will be available in the app and on its public privacy page.</p>
+<h2>Contact</h2>
+<p>Ayubkhon Yuldashev<br>Email: <a href="mailto:aubuldasev@gmail.com">aubuldasev@gmail.com</a></p>
+<h2>Premium purchases and trial reminders</h2>
+<p>Apple processes subscription purchases and payment information. Pullar checks verified App Store transactions on your device to enable Premium features; it does not receive your payment-card details. Premium access follows the App Store account used for purchases, which can differ from your Pullar sign-in account. Deleting a Pullar account does not cancel an Apple subscription. Manage subscriptions in your App Store account settings.</p>
+<p>For cloud voice input, Pullar sends Apple&#x27;s signed subscription transaction to its Supabase function and checks current subscription status with Apple. This processes your subscription product, transaction identifiers, expiration/status, and any Pullar account token attached to the purchase. The server stores a hash of the original transaction identifier and the account binding to prevent one subscription funding voice requests for multiple accounts; it does not store the signed transaction. Account deletion clears the account reference but retains the hash to prevent reassignment. Voice access is tied to that Pullar account, while local Premium features continue to follow your App Store account. Contact support if you need help with account access.</p>
+<p>If you enable trial reminders and allow notifications, Pullar schedules a local notification before the first charge using the trial end date supplied by Apple. Notification delivery depends on your device settings. You can disable reminders in the Premium screen or iOS Settings.</p>
+<h2>Voice input</h2>
+<p>Voice input is optional and requires microphone permission, an internet connection, and a signed-in account. Under the privacy agreement displayed at sign-in, using voice input sends data to the providers described below. You can choose manual entry instead, stop using voice input, or disable microphone permission in iOS Settings. When you record a transaction in English or Russian, Pullar sends the recording through its Supabase function to Deepgram for speech recognition. The transcript, selected currency, current local date, and available category names are sent to Groq to prepare a draft. Your existing transaction history is not sent. You can correct the transcript and review the draft before saving.</p>
+<p>Pullar deletes its temporary audio file after successful transcription or when you close or restart recording. Its server does not persist audio, transcripts, or generated drafts. It stores per-account request counters to enforce usage limits; these counters are deleted with the account. Deepgram requests include mip_opt_out=true, excluding model improvement and retaining audio/transcripts only for request processing; usage metadata may remain. Groq may temporarily retain inputs and outputs for reliability or abuse monitoring for up to 30 days, or longer when legally required, unless Zero Data Retention is enabled. Pullar does not promise that providers retain no data. Provider processing locations and operational metadata are governed by their service terms. Spoken financial details may therefore be processed and retained outside your device. Provider information is available at <a href="https://developers.deepgram.com/trust-security/your-data">https://developers.deepgram.com/trust-security/your-data</a> and <a href="https://console.groq.com/docs/your-data">https://console.groq.com/docs/your-data</a>. The saved transaction contains only the details you confirm.</p>
+<h2>Exported files</h2>
+<p>Each signed-in account has separate local transactions and categories. Authentication also protects access to cloud voice and private support. Account records are backed up and reconciled between signed-in devices. Exporting a backup or CSV writes financial data to the destination you choose. Anyone with access to that file may be able to read it. Importing a backup replaces the current account&#x27;s records only after confirmation; those changes are also backed up to the account.</p>
+<h2>Setup drafts</h2>
+<p>Your first transaction and category choices are temporarily saved in a separate local setup area. Once setup is committed, Pullar removes that copy. An interrupted transfer is bound to its chosen destination and is retried without duplicating records. Older setup copies are removed only when their ownership can be established; unclaimed setup records can be exported or explicitly cleared in Backup and export.</p>
+</article>
+<footer><p>Pullar · Ayubkhon Yuldashev</p><a href="mailto:aubuldasev@gmail.com">Privacy questions? Get in touch.</a></footer>
+</main>
+</body>
+</html>
